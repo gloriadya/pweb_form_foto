@@ -1,0 +1,43 @@
+h1 {
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: #F9F9F9;
+}
+  
+img {
+    width: 100%;
+}
+  
+body {
+    display: block;
+    margin: 20px;
+    background-color: #2C3333;
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: normal;
+    color: #F9F9F9;
+}
+
+a:-webkit-any-link {
+    color: turquoise;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+    color: #F9F9F9;
+}
+
+input[type="text" i] {
+    padding: 1px 2px;
+}
+
+input:not([type="image" i]) {
+    box-sizing: border-box;
+}
